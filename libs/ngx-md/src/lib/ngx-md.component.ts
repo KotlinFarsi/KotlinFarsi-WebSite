@@ -80,6 +80,7 @@ export class NgxMdComponent implements  AfterViewInit {
     processRaw() {
       this._md = this.prepare(decodeHtml(this._el.nativeElement.innerHTML));
       this._el.nativeElement.innerHTML = this._mdService.compile(this._md, this.sanitizeHtml);
+
       this.highlightContent(false);
     }
 
@@ -93,7 +94,9 @@ export class NgxMdComponent implements  AfterViewInit {
                 this.loaded.emit(data);
                 this._md = this._ext !== 'md' ? '```' + this._ext + '\n' + data + '\n```' : data;
                 this._el.nativeElement.innerHTML = this._mdService.compile(this.prepare(this._md), this.sanitizeHtml);
-                this.highlightContent(false);
+                //TODO i should change the text here, find the links and change them
+                this._el.nativeElement.innerHTML = this._el.nativeElement.innerHTML.replace("hello", "test");
+              this.highlightContent(false);
             });
     }
 

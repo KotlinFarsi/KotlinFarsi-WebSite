@@ -50,7 +50,7 @@ export class NgxMdService {
     setOptions(options);
   }
 
-  // comple markdown to html
+  // compile markdown to html
   public compile(data: string, sanitize = true) {
     return this._domSanitizer.sanitize(
       sanitize ? SecurityContext.HTML : SecurityContext.NONE,
