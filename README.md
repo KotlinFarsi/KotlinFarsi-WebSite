@@ -9,4 +9,5 @@ KotlinFarsi's New Design with use of Kotlin Power (Open Source Project)
 ## Till Now
 <div style="display: flex;">
   <img src="./art/kotlinfarsi-website-mainpage.png" />
+  <img src="./art/kotlinfarsi-website-anotherpage.png" />
 </div> 

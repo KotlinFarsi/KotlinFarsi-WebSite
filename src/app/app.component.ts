@@ -37,7 +37,8 @@ export class AppComponent implements OnInit{
   onClick(e) {
     console.log(e.path[0].valueOf().toString().substring(e.path[0].valueOf().toString().indexOf("assets") - 1));
 
-    this.http.get(e.path[0].valueOf().toString().substring(e.path[0].valueOf().toString().indexOf("assets") - 1), {responseType: 'text'})
+    this.http.get(e.path[0].valueOf().toString().substring(e.path[0].valueOf().toString().indexOf("assets") - 1)
+      , {responseType: 'text'})
       .subscribe(data => this.markdownContent = data);
 
     return false;
