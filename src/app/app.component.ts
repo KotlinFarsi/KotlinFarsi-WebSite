@@ -1,5 +1,4 @@
 import {
-  ChangeDetectorRef,
   Component,
   ElementRef,
   HostListener,
@@ -7,7 +6,6 @@ import {
   PLATFORM_ID,
   ViewChild
 } from '@angular/core';
-import { NgxMdService } from 'libs/ngx-md/src/lib/ngx-md.service';
 import {NgxMdComponent} from "../../libs/ngx-md/src/lib/ngx-md.component";
 import { HttpClient } from '@angular/common/http';
 
@@ -29,7 +27,7 @@ export class AppComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.http.get('assets/test.md', {responseType: 'text'})
+    this.http.get('assets/test3.md', {responseType: 'text'})
       .subscribe(data => this.markdownContent = data);
   }
 
