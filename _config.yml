@@ -1,0 +1,60 @@
+# Site settings
+title: کاتلین فارسی
+url: "http://KotlinFarsi.com"
+baseurl: ""
+description: >
+  مرجع متن باز کاتلین به زبان فارسی
+
+email: kotlinfarsi@gmail.com
+author: کاتلین فارسی
+avatar: "kotlinfarsi.png"
+twitter_username: "@kotlinfarsi"
+github_username:  "@kotlinfarsi"
+profile_links:
+  Email: "kotlinfarsi@gmail.com"
+  GitHub: "https://github.com/kotlinfarsi"
+
+# Comment Service
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+
+excerpt_separator: <!--بیشتر-->
+
+header:
+  links:
+    دوره ها: /tutorials/
+    مقاله ها: /
+    رادیو کاتلین: /radio/
+    کاتلین رو امتحان کن: /try/
+
+
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
+
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:path/

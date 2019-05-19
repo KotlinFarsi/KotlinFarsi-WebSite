@@ -1,35 +1,26 @@
 # KotlinFarsi-WebSite
+<div dir="rtl" markdown="1">
+**سایت جدید کاتلین فارسی**، قدرت گرفته با Jekyll
 
-[![Join the chat at https://gitter.im/KotlinFarsi/KotlinFarsi-WebSite](https://badges.gitter.im/KotlinFarsi/KotlinFarsi-WebSite.svg)](https://gitter.im/KotlinFarsi/KotlinFarsi-WebSite?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-KotlinFarsi's New Design with use of Kotlin Power (Open Source Project)
+## ویژگی ها
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
+- صفحه جدید **رادیو کاتلین**، مصاحبه هایی که با افراد موفق انجام میشود در این صفحه قرار میگیرد
+- دوره های **رایگان** آموزشی در سایت نیز قرار گرفت.
+- مقاله های خبری، آموزشی نیز در سایت قرار میگیرد و همچنین افراد مختلف که خواهان درج مقاله خود هستند نیز **میتوانند** مقاله ی خود را به نام خود به اشتراک بگذارند.
+- صفحه **کاتلین رو امتحان کن** نیز به افراد تازه وارد این امکان را میدهد که بدون نصب چیزی تنها در مرورگر بتوانند کاتلین را امتحان کنند.
 
-## Till Now
-<div style="display: flex;">
-  <img src="./art/kotlinfarsi-website-mainpage.png" />
-  <img src="./art/kotlinfarsi-website-anotherpage.png" />
-</div> 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## نحوه مشارکت
 
-## Code scaffolding
+برای مشارکت کافی است این مخزن را clone کرده و تغییرات خود را در آن وارد و سپس به صورت pull-request درخواست دهید.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## چگونه دوره خود را در کاتلین فارسی ایجاد کنم
 
-## Running unit tests
+شما میتوانید دوره ی خود را درکاتلین فارسی قرار دهید و آن را چه به صورت رایگان و چه با پرداخت هزینه در اختیار دیگران قرار دهید. برای قرار دادن دوره خود کافی است یک **استاد** شوید. میتوانید به صورت مستقیم در توییتر و یا تلگرام و یا به صورت ایمیل درخواست خود را مطرح نمایید.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
+</div>
