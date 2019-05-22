@@ -1,0 +1,130 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$base-font-family: "Vazir";
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$code-font-family:   Menlo, Monaco, Consolas, "DejaVu Sans Mono", "Liberation Mono", "Courier New", Courier, SimSun, monospace;
+$code-font-size:     15px;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+$color-link: #036;
+$color-link-hover: #069;
+
+$header-bg: #4a0072;
+$header-bg-hover: #7b1fa2;
+$header-link: #FFF;
+$header-fg: #FFF;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "animate",
+        "layout",
+        "syntax-highlighting",
+        "easybook"
+;
+
+*[dir="rtl"] { direction: rtl;}
+
+.code-output{
+  direction: ltr;
+}
+
+.profilePic{
+  float: right;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: aliceblue;
+  margin-right: -100px;
+}
+
+.neonAndroidJetpack {
+  color: #43a047;
+  font-family: Vazir;
+  -webkit-animation: neonAJ 1.5s ease-in-out infinite alternate;
+  -moz-animation: neonAJ 1.5s ease-in-out infinite alternate;
+  animation: neonAJ 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neonAJ {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #43a047, 0 0 70px #43a047, 0 0 80px #43a047, 0 0 100px #43a047, 0 0 150px #43a047;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #43a047, 0 0 35px #43a047, 0 0 40px #43a047, 0 0 50px #43a047, 0 0 75px #43a047;
+  }
+}
+
+@-moz-keyframes neonAJ {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #43a047, 0 0 70px #43a047, 0 0 80px #43a047, 0 0 100px #43a047, 0 0 150px #43a047;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #43a047, 0 0 35px #43a047, 0 0 40px #43a047, 0 0 50px #43a047, 0 0 75px #43a047;
+  }
+}
+
+@keyframes neonAJ {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #43a047, 0 0 70px #43a047, 0 0 80px #43a047, 0 0 100px #43a047, 0 0 150px #43a047;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #43a047, 0 0 35px #43a047, 0 0 40px #43a047, 0 0 50px #43a047, 0 0 75px #43a047;
+  }
+}
+
+.neonAdvanced {
+  color: #D74400;
+  font-family: Vazir;
+  -webkit-animation: neonAdvanced 1.5s ease-in-out infinite alternate;
+  -moz-animation: neonAdvanced 1.5s ease-in-out infinite alternate;
+  animation: neonAdvanced 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neonAdvanced {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #D74400, 0 0 70px #D74400, 0 0 80px #D74400, 0 0 100px #D74400, 0 0 150px #D74400;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #D74400, 0 0 35px #D74400, 0 0 40px #D74400, 0 0 50px #D74400, 0 0 75px #D74400;
+  }
+}
+
+@-moz-keyframes neonAdvanced {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #D74400, 0 0 70px #D74400, 0 0 80px #D74400, 0 0 100px #D74400, 0 0 150px #D74400;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #D74400, 0 0 35px #D74400, 0 0 40px #D74400, 0 0 50px #D74400, 0 0 75px #D74400;
+  }
+}
+
+@keyframes neonAdvanced {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #D74400, 0 0 70px #D74400, 0 0 80px #D74400, 0 0 100px #D74400, 0 0 150px #D74400;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #D74400, 0 0 35px #D74400, 0 0 40px #D74400, 0 0 50px #D74400, 0 0 75px #D74400;
+  }
+}
+
+
