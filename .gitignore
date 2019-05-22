@@ -1,5 +1,3 @@
 _site
 .sass-cache
-.c9
-Gemfile.lock
-.idea
+.jekyll-metadata
