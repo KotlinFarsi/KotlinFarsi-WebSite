@@ -58,5 +58,3 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:path/
-
-theme: jekyll-theme-cayman
