@@ -5,6 +5,7 @@ date:   2017-06-22 00:00:00
 categories: post
 editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2017-6-22-kotlin-native-v0-3/2017-6-22-kotlin-native-v0-3.md
 author: "سینا درویشی"
+profilepic: /assets/profile/sina_darvishi.jpg
 ---
 
 <div dir="rtl" markdown="1">

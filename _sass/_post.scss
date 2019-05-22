@@ -58,7 +58,8 @@
     .post-meta {
       color: #999;
       font-size: $small-font-size;
-      margin: 0 -100px;
+      margin-right: -25px;
+      padding-top: 30px;
     }
 
     @include media-query($on-palm) {

@@ -127,9 +127,7 @@
 
 </div>
 {% endif %}
-{% endif %}
 
-{% if page.layout == "tutorial" %}
 {% if page.url contains "/tutorials/android/" %}
 
 <div class="post" dir="ltr">
@@ -238,6 +236,33 @@
 
     </article>
 
+</div>
+
+{% endif %}
+
+{% if page.url contains "/tutorials/js/" %}
+
+<div dir="rtl">
+
+    <h1 id="section">فهرست</h1>
+
+    <p><strong>1 - مقدمه</strong></p>
+
+    <p><a style="{% if page.url contains "/tutorials/js/hello-world/" %}color:red;{% endif %}" href="/tutorials/js/hello-world/">1.1 ) یک Hello World ساده</a></p>
+
+    <p><strong>2 - مبانی کاتلین/JS</strong></p>
+
+    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part1/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part1/">2.1 ) کار با DOM - بخش اول</a></p>
+
+    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part2/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part2/">2.2 ) کار با DOM - بخش دوم</a></p>
+
+    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part3/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part3/">2.3 ) کار با DOM - بخش سوم</a></p>
+
+    <p><strong>2 - همکاری با JS</strong></p>
+
+    <p><a style="{% if page.url contains "/tutorials/js/javascript-introp/" %}color:red;{% endif %}" href="/tutorials/js/javascript-introp/">2.1 ) همکاری با JS</a></p>
+
+    <p>بقیه فصل ها در حال ساخت است</p>
 </div>
 
 {% endif %}

@@ -1,6 +1,6 @@
 # KotlinFarsi-WebSite
 <div dir="rtl" markdown="1">
-**سایت جدید کاتلین فارسی**، قدرت گرفته با Jekyll
+سایت جدید کاتلین فارسی ، قدرت گرفته با Jekyll
 
 
 

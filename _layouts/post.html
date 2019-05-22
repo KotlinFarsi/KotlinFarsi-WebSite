@@ -11,7 +11,10 @@ layout: default
         <span class="edit-github-btn-text"> ویرایش </span>
       </a>
     </div>
-     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <div>
+      <img class="profilePic" src="{{ page.profilepic }}">
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </div>
 
 
   </header>
