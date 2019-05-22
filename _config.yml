@@ -1,7 +1,7 @@
 # Site settings
 title: کاتلین فارسی
-url: "https://kotlinfarsi.github.io"
-baseurl: "/KotlinFarsi-WebSite"
+url: "https://kotlinfarsi.com"
+baseurl: ""
 description: >
   مرجع متن باز کاتلین به زبان فارسی
 
