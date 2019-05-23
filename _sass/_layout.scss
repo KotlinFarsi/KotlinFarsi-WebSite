@@ -31,10 +31,9 @@ body {
 
   .site-title {
     float: right;
-    color: $header-fg;
-    text-decoration: none;
-    font-size: $base-font-size;
-    line-height: $base-font-size * 2;
+    height: 32px;
+    vertical-align: center;
+    margin-right: 32px;
   }
 
   .site-nav {
@@ -277,6 +276,7 @@ $hide-sidebar-screen-width: 1120px;
 
     .site-title {
       float: none;
+      margin-right: 0;
     }
   }
   .col-main {

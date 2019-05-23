@@ -149,11 +149,20 @@ function PalmSidebar() {
         header_placeholder.style.height = is_palm_mode ? (h.bottom - h.top + 'px') : '0px'
     }
     function toggleSidebar(e) {
+        // TODO: when header expanded it will not resize again to normal size!
         if (/expand-sidebar/.test(pcw.className)) {
-            pcw.className = pcw.className.replace(/\s*expand-sidebar\s*/, ' ');
+            if(window.location.pathname !== "/"
+                && window.location.pathname !== "/tutorials/"
+                && window.location.pathname !== "/radio/"
+                && window.location.pathname !== "/try/")
+                pcw.className = pcw.className.replace(/\s*expand-sidebar\s*/, ' ');
             header.className = header.className.replace(/\s*expand-sidebar\s*/, ' ');
         } else {
-            pcw.className += " expand-sidebar";
+            if(window.location.pathname !== "/"
+                && window.location.pathname !== "/tutorials/"
+                && window.location.pathname !== "/radio/"
+                && window.location.pathname !== "/try/")
+                pcw.className += " expand-sidebar";
             header.className += " expand-sidebar";
         }
         setTimeout(s1, 200);
@@ -210,6 +219,7 @@ function RealLoad() {
         document.querySelector('.post-content'),
         document.querySelector('.col-main')
     );
+
 
     PalmSidebar();
     SelectAllize("pre.highlight", "Dblclick to select all");
