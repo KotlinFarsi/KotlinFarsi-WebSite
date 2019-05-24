@@ -3,7 +3,7 @@ layout: post
 title:  "راه اندازی API های Restful با استفاده از Spring Boot و کاتلین"
 date:   2018-05-1 00:00:00
 categories: post
-editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2018-5-01-running-restful-app-with-spring-boot-and-kotlin/2018-5-01-running-restful-app-with-spring-boot-and-kotlin.md
+editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_posts/2018-5-01-running-restful-app-with-spring-boot-and-kotlin/2018-5-01-running-restful-app-with-spring-boot-and-kotlin.md
 author: "سینا درویشی"
 profilepic: /assets/profile/sina_darvishi.jpg
 ---

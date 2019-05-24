@@ -3,7 +3,7 @@ layout: post
 title:  "کاتلین/نیتیو بررسی تکنولوژی : کاتلین بدون نیاز به VM"
 date:   2017-04-04 00:00:00
 categories: post
-editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2017-4-4-kotlin-native-without-vm/2017-4-4-kotlin-native-without-vm.md
+editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_posts/2017-4-4-kotlin-native-without-vm/2017-4-4-kotlin-native-without-vm.md
 author: "سینا درویشی"
 profilepic: /assets/profile/sina_darvishi.jpg
 ---

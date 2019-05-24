@@ -3,7 +3,7 @@ layout: post
 title:  "کاتلین 1.1 برای توسعه دهنده های اندروید"
 date:   2017-04-05 00:00:00
 categories: post
-editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2017-4-5-kotlin-1-1-is-also-for-android-developers/2017-4-5-kotlin-1-1-is-also-for-android-developers.md
+editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_posts/2017-4-5-kotlin-1-1-is-also-for-android-developers/2017-4-5-kotlin-1-1-is-also-for-android-developers.md
 author: "سینا درویشی"
 profilepic: /assets/profile/sina_darvishi.jpg
 ---

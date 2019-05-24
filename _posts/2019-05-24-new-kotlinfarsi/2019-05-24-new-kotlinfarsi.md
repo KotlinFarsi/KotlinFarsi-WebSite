@@ -3,7 +3,7 @@ layout: post
 title:  "سایت جدید کاتلین فارسی"
 date:   2019-05-24 00:00:00
 categories: post
-editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2019-05-24-new-kotlinfarsi/2019-05-24-new-kotlinfarsi.md
+editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_posts/2019-05-24-new-kotlinfarsi/2019-05-24-new-kotlinfarsi.md
 author: "سینا درویشی"
 profilepic: /assets/profile/sina_darvishi.jpg
 ---

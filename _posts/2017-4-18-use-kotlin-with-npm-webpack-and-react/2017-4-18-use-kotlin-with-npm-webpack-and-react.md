@@ -3,7 +3,7 @@ layout: post
 title:  "استفاده از کاتلین به همراه npm، webpack و react"
 date:   2017-04-18 00:00:00
 categories: post
-editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_post/2017-4-18-use-kotlin-with-npm-webpack-and-react/2017-4-18-use-kotlin-with-npm-webpack-and-react.md
+editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/_posts/2017-4-18-use-kotlin-with-npm-webpack-and-react/2017-4-18-use-kotlin-with-npm-webpack-and-react.md
 author: "سینا درویشی"
 profilepic: /assets/profile/sina_darvishi.jpg
 ---
