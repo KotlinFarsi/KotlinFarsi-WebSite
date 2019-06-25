@@ -30,6 +30,7 @@ profilepic: /assets/profile/sina_darvishi.jpg
 **فیدبک مراسم کاتلین 1.1 :**
 
 در این مراسم از بیننده گان درخواست شد که نظرات خودشون رو در مورد کاتلین
+
 بیان کنند. شما نیز میتونید فیدبک خودتون رو [در این فرم پر کنید](https://docs.google.com/forms/d/e/1FAIpQLSdgKsJzwc1ToAusi-xpEiiE1O4t3HA5xjlbZXDU5Mg0i3qvNg/viewform). نظرات شما باعث بهبود ویژگی های کاتلین میشه.
 
 </div>
