@@ -13,11 +13,20 @@ layout: default
     </div>
     <div>
       <img class="profilePic" src="{{ page.profilepic }}">
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <p class="post-meta">
+          <span id="page-date:{{page.date}}{{page.title}}" class="date"></span>        
+        {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </div>
 
 
   </header>
+
+  <script>
+    var date='{{page.date}}'
+    moment.loadPersian(true);
+    var mom = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('jD jMMMM jYYYY');
+    document.getElementById("page-date:{{page.date}}{{page.title}}").innerText=mom
+  </script>
 
   <article class="post-content">
     {{ content }}

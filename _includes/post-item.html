@@ -3,7 +3,7 @@
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 </h2>
 
-<div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+<div class="post-meta" id="date:{{post.date}}{{post.title}}"></div>
 <div class="post-meta">نویسنده : {{ post.author }}</div>
 
 <div class="post-excerpt">
@@ -14,4 +14,10 @@
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">خواندن مطلب &raquo;</a>
     </p>
 </div>
+<script>
+        var date='{{post.date}}'
+        moment.loadPersian(true);
+        var mom = moment(date, 'YYYY-M-D HH:mm:ss TZD').format('jD jMMMM jYYYY');
+        document.getElementById("date:{{post.date}}{{post.title}}").innerText=mom
+    </script>
 </li>
