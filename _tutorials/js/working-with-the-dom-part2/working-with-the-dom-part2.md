@@ -1,9 +1,9 @@
 ---
+unit: 2
+chapter: 2
 layout: tutorial
 title: "کار با DOM - بخش دوم"
 category: js
-permalink: /tutorials/js/working-with-the-dom-part2/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Browser/edit/master/src/working-with-the-dom-part2/README.md
 ---
 
 

@@ -242,27 +242,22 @@
 
 {% if page.url contains "/tutorials/js/" %}
 
-<div dir="rtl">
-
+<div class="post-index" dir="rtl">
     <h1 id="section">فهرست</h1>
 
-    <p><strong>1 - مقدمه</strong></p>
-
-    <p><a style="{% if page.url contains "/tutorials/js/hello-world/" %}color:red;{% endif %}" href="/tutorials/js/hello-world/">1.1 ) یک Hello World ساده</a></p>
-
-    <p><strong>2 - مبانی کاتلین/JS</strong></p>
-
-    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part1/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part1/">2.1 ) کار با DOM - بخش اول</a></p>
-
-    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part2/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part2/">2.2 ) کار با DOM - بخش دوم</a></p>
-
-    <p><a style="{% if page.url contains "/tutorials/js/working-with-the-dom-part3/" %}color:red;{% endif %}" href="/tutorials/js/working-with-the-dom-part3/">2.3 ) کار با DOM - بخش سوم</a></p>
-
-    <p><strong>2 - همکاری با JS</strong></p>
-
-    <p><a style="{% if page.url contains "/tutorials/js/javascript-introp/" %}color:red;{% endif %}" href="/tutorials/js/javascript-introp/">2.1 ) همکاری با JS</a></p>
-
-    <p>بقیه فصل ها در حال ساخت است</p>
+    {% assign posts = site.tutorials | where: "category", "js" %}
+    {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
+    {% for unit in posts_by_unit %}
+        {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
+        {% for post in sorted_unit_posts %}
+            {% if post.chapter == 0 %}
+                <p class="headline">{{ post.unit }} - {{ post.title }}</p>
+            {% else %}
+                <p><a class="post-head {%if page.url==post.url %}selected{%endif%}"
+                    href="{{ post.url }}">{{post.chapter}}.{{post.unit}} ) {{ post.title }}</a></p>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 </div>
 
 {% endif %}

@@ -1,9 +1,9 @@
 ---
+unit: 3
+chapter: 0
 layout: tutorial
 title: "همکاری با JavaScript"
 category: js
-permalink: /tutorials/js/javascript-introp/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Browser/edit/master/src/javascript-introp/README.md
 ---
 
 
