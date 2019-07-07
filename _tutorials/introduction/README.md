@@ -1,11 +1,3 @@
----
-layout: tutorial
-title: "فهرست"
-category: introduction
-permalink: /tutorials/introduction/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/README.md
----
-
 <div dir="rtl" markdown="1">
 
 # فهرست
