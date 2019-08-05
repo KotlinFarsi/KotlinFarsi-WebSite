@@ -3,3 +3,4 @@ _site
 .c9
 Gemfile.lock
 .idea
+!/_site/_redirects
