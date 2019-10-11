@@ -2,8 +2,8 @@
 layout: tutorial
 title: "همکاری با JavaScript"
 category: js
-unit: 
-chapter: 
+unit: 3
+chapter: 1
 ---
 
 

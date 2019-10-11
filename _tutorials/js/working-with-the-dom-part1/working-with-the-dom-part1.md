@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کار با DOM - بخش اول"
 category: js
-unit: 
-chapter: 
+unit: 1
+chapter: 1
 ---
 
 
