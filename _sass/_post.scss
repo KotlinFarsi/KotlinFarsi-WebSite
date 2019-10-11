@@ -110,3 +110,17 @@
     padding-top: 30px;
   }
 }
+
+.post-index {
+  .headline { 
+    color: #000;
+    font-weight: 600;
+  }
+  .post-head {
+    color: #036;
+
+    &.selected { 
+      color: red;
+    }
+  }
+}

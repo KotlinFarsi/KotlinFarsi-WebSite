@@ -58,4 +58,4 @@ kramdown:
 collections:
   tutorials:
     output: true
-    permalink: /tutorials/:path/
+    permalink: /tutorials/:categories/:name
