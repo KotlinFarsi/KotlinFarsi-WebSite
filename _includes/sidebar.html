@@ -11,7 +11,7 @@
                     {% if post.content == "" %}
                         {{ post.unit }} - {{ post.title }}
                     {% else %}
-                        <a class=" {%if page.url==post.url %}selected{%endif%}"
+                        <a class=" {% if page.url==post.url %}selected{% endif %}"
                             href="{{ post.url }}">{{post.unit}} - {{ post.title }}</a>
                     {% endif %}
                 </p>
@@ -20,7 +20,7 @@
                     {% if post.content == "" %}
                         {{post.chapter}}.{{post.unit}} ) {{ post.title }}
                     {% else %}
-                        <a class="{%if page.url==post.url %}selected{%endif%}"
+                        <a class="{% if page.url==post.url %}selected{% endif %}"
                             href="{{ post.url }}">{{post.chapter}}.{{post.unit}} ) {{ post.title }}</a>
                     {% endif %}
                 </p>
