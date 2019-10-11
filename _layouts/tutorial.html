@@ -6,12 +6,7 @@ layout: default
 
     <header class="post-header" dir="rtl">
         <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-edit-github-btn">
-            <a href="{{ page.editlink }}" class="edit-btn edit-github-btn">
-                <i class="fa fa-github" style="font-size: 30px"></i>
-                <span class="edit-github-btn-text"> ویرایش </span>
-            </a>
-        </div>
+        {% include edit-on-github.html %}
     </header>
 
 
