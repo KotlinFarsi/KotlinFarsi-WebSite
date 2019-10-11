@@ -2,15 +2,28 @@
 <div class="post-index" dir="rtl">
     <h1 id="section">فهرست</h1>
     {% assign posts = site.tutorials | where: "category", {{page.category}} %}
-{% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
+    {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
     {% for unit in posts_by_unit %}
         {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
         {% for post in sorted_unit_posts %}
             {% if post.chapter == 0 %}
-                <p class="headline">{{ post.unit }} - {{ post.title }}</p>
+                <p class="headline">
+                    {% if post.content == "" %}
+                        {{ post.unit }} - {{ post.title }}
+                    {% else %}
+                        <a class=" {%if page.url==post.url %}selected{%endif%}"
+                            href="{{ post.url }}">{{post.unit}} - {{ post.title }}</a>
+                    {% endif %}
+                </p>
             {% else %}
-                <p><a class="post-head {%if page.url==post.url %}selected{%endif%}"
-                    href="{{ post.url }}">{{post.chapter}}.{{post.unit}} ) {{ post.title }}</a></p>
+                <p class="post-head">
+                    {% if post.content == "" %}
+                        {{post.chapter}}.{{post.unit}} ) {{ post.title }}
+                    {% else %}
+                        <a class="{%if page.url==post.url %}selected{%endif%}"
+                            href="{{ post.url }}">{{post.chapter}}.{{post.unit}} ) {{ post.title }}</a>
+                    {% endif %}
+                </p>
             {% endif %}
         {% endfor %}
     {% endfor %}

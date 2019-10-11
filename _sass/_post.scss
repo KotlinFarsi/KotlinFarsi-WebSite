@@ -118,9 +118,8 @@
   }
   .post-head {
     color: #036;
-
-    &.selected { 
-      color: red;
-    }
+  }
+  .selected { 
+    color: red;
   }
 }
