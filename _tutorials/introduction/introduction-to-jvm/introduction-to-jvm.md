@@ -2,8 +2,8 @@
 layout: tutorial
 title: "آشنایی با JVM"
 category: introduction
-unit: 
-chapter: 
+unit: 2
+chapter: 1
 ---
 
 

@@ -2,8 +2,8 @@
 layout: tutorial
 title: "همکاری با جاوا"
 category: introduction
-unit: 
-chapter: 
+unit: 10
+chapter: 1
 ---
 
 

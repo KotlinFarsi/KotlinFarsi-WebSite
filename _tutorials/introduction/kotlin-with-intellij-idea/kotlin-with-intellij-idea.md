@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کاتلین با IntelliJ IDEA"
 category: introduction
-unit: 
-chapter: 
+unit: 2
+chapter: 5
 ---
 
 

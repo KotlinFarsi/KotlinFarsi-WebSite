@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کار کردن با exception ها"
 category: introduction
-unit: 
-chapter: 
+unit: 8
+chapter: 4
 ---
 
 

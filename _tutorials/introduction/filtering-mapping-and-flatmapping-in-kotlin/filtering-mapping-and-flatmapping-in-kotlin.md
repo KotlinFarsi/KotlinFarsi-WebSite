@@ -2,8 +2,8 @@
 layout: tutorial
 title: "مرور کوتاه بر روی filtering و mapping و flatmapping در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 11
+chapter: 2
 ---
 
 

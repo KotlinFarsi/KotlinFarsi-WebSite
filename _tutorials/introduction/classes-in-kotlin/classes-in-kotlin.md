@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کلاس ها در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 5
+chapter: 1
 ---
 
 

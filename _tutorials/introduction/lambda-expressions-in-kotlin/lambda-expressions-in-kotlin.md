@@ -2,8 +2,8 @@
 layout: tutorial
 title: "عبارت های لاندا در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 9
+chapter: 2
 ---
 
 

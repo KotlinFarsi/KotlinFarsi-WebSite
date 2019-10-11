@@ -2,8 +2,8 @@
 layout: tutorial
 title: "صحبت کردن با کاتلین از جاوا"
 category: introduction
-unit: 
-chapter: 
+unit: 10
+chapter: 4
 ---
 
 

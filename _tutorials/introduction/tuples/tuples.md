@@ -2,8 +2,8 @@
 layout: tutorial
 title: "چندتایی ها (Tuples)"
 category: introduction
-unit: 
-chapter: 
+unit: 8
+chapter: 2
 ---
 
 

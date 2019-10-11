@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کلاس های enum در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 5
+chapter: 5
 ---
 
 

@@ -2,8 +2,8 @@
 layout: tutorial
 title: "ارث بری در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 6
+chapter: 1
 ---
 
 

@@ -2,8 +2,8 @@
 layout: tutorial
 title: "deconstructing values"
 category: introduction
-unit: 
-chapter: 
+unit: 8
+chapter: 3
 ---
 
 

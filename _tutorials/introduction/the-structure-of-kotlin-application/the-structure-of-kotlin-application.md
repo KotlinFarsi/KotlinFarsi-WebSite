@@ -2,8 +2,8 @@
 layout: tutorial
 title: "ساختار یک برنامه کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 2
+chapter: 4
 ---
 
 

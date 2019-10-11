@@ -2,8 +2,8 @@
 layout: tutorial
 title: "همکاری با جاوا 7 و 8 و خلاصه بخش دهم"
 category: introduction
-unit: 
-chapter: 
+unit: 10
+chapter: 7
 ---
 
 

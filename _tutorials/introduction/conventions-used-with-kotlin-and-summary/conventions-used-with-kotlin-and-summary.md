@@ -2,8 +2,8 @@
 layout: tutorial
 title: "خلاصه بخش دوم"
 category: introduction
-unit: 
-chapter: 
+unit: 2
+chapter: 6
 ---
 
 

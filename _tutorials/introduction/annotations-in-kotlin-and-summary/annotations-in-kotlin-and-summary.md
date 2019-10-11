@@ -2,8 +2,8 @@
 layout: tutorial
 title: "annotation ها در کاتلین و خلاصه بخش هشت"
 category: introduction
-unit: 
-chapter: 
+unit: 8
+chapter: 7
 ---
 
 

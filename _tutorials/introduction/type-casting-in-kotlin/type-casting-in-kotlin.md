@@ -2,8 +2,8 @@
 layout: tutorial
 title: "type casting در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 8
+chapter: 1
 ---
 
 

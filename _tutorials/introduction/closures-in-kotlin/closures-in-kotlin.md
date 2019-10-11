@@ -2,8 +2,8 @@
 layout: tutorial
 title: "closure ها در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 9
+chapter: 3
 ---
 
 

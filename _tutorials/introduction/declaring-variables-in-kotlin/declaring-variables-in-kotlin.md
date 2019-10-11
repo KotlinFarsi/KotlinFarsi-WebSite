@@ -2,8 +2,8 @@
 layout: tutorial
 title: " تعریف متغیر در کاتلین"
 category: introduction
-unit: 
-chapter: 
+unit: 3
+chapter: 1
 ---
 
 
