@@ -2,8 +2,6 @@
 layout: tutorial
 title: "عبارت های لاندا در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/lambda-expressions-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/lambda-expressions-in-kotlin/README.md
 ---
 
 

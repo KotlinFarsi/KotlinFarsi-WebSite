@@ -2,8 +2,6 @@
 layout: tutorial
 title: "Overloading Operators"
 category: android
-permalink: /tutorials/android/operators-overloading
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/operators-overloading/README.md
 ---
 
 

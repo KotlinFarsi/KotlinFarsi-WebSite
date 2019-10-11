@@ -2,8 +2,6 @@
 layout: tutorial
 title: "نوشتن اولین کلاس"
 category: android
-permalink: /tutorials/android/writing-your-first-class
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/writing-your-first-class/README.md
 ---
 
 

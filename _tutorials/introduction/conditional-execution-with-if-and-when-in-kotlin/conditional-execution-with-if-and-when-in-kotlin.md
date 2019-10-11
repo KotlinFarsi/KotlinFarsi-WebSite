@@ -2,8 +2,6 @@
 layout: tutorial
 title: "عبارت های شرطی در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/conditional-execution-with-if-and-when-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/conditional-execution-with-if-and-when-in-kotlin/README.md
 ---
 
 

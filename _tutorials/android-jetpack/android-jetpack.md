@@ -2,8 +2,6 @@
 layout: tutorial
 title: "فهرست"
 category: android-jetpack
-permalink: /tutorials/android-jetpack/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-AndroidJetpack/edit/master/src/README.md
 ---
 
 

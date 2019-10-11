@@ -2,8 +2,6 @@
 layout: tutorial
 title: "تجزیه دیتا"
 category: android
-permalink: /tutorials/android/parsing-data
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/parsing-data/README.md
 ---
 
 

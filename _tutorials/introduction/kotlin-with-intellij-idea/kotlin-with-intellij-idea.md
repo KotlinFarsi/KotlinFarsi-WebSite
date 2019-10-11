@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کاتلین با IntelliJ IDEA"
 category: introduction
-permalink: /tutorials/introduction/kotlin-with-intellij-idea/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/kotlin-with-intellij-idea/README.md
 ---
 
 

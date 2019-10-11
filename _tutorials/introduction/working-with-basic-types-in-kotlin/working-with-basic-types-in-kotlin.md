@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کار با Type های پایه ای"
 category: introduction
-permalink: /tutorials/introduction/working-with-basic-types-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/working-with-basic-types-in-kotlin/README.md
 ---
 
 

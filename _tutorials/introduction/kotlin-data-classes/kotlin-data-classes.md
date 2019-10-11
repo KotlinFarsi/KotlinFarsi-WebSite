@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کلاس های دیتا در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/kotlin-data-classes/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/kotlin-data-classes/README.md
 ---
 
 

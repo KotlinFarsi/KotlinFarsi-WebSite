@@ -2,8 +2,6 @@
 layout: tutorial
 title: "چرا کاتلین"
 category: introduction
-permalink: /tutorials/introduction/why-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/why-kotlin/README.md
 ---
 
 

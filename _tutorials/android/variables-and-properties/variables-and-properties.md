@@ -2,8 +2,6 @@
 layout: tutorial
 title: "مقادیر و خصیصه ها"
 category: android
-permalink: /tutorials/android/variables-and-properties
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/variables-and-properties/README.md
 ---
 
 

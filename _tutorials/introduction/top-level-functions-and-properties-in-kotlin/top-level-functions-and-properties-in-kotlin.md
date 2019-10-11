@@ -2,8 +2,6 @@
 layout: tutorial
 title: "توابع و خصیصه های درجه اول"
 category: introduction
-permalink: /tutorials/introduction/top-level-functions-and-properties-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/top-level-functions-and-properties-in-kotlin/README.md
 ---
 
 

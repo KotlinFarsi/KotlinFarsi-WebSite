@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کاتلین REPL"
 category: introduction
-permalink: /tutorials/introduction/the-kotlin-repl/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/the-kotlin-repl/README.md
 ---
 
 

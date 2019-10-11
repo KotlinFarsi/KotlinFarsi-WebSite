@@ -2,8 +2,6 @@
 layout: tutorial
 title: "اضافه کردن پگیج ها در کاتلین و خلاصه بخض سوم"
 category: introduction
-permalink: /tutorials/introduction/package-and-imports-in-kotlin-and-summary-of-kotlin-basic/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/package-and-imports-in-kotlin-and-summary-of-kotlin-basic/README.md
 ---
 
 

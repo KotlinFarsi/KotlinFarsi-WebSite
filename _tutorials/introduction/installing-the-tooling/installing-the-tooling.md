@@ -2,8 +2,6 @@
 layout: tutorial
 title: "نصب کردن ابرازآلات"
 category: introduction
-permalink: /tutorials/introduction/installing-the-tooling/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/installing-the-tooling/README.md
 ---
 
 

@@ -2,8 +2,6 @@
 layout: tutorial
 title: "توابعِ عضو در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/member-functions-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/member-functions-in-kotlin/README.md
 ---
 
 

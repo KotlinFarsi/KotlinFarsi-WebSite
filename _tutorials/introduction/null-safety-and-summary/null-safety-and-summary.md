@@ -2,8 +2,6 @@
 layout: tutorial
 title: "null safety و خلاصه بخش هفت"
 category: introduction
-permalink: /tutorials/introduction/null-safety-and-summary/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/null-safety-and-summary/README.md
 ---
 
 

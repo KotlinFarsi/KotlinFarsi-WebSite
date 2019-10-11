@@ -2,8 +2,6 @@
 layout: tutorial
 title: "ساختن یک پروژه جدید"
 category: android
-permalink: /tutorials/android/creating-a-new-project
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/creating-a-new-project/README.md
 ---
 
 

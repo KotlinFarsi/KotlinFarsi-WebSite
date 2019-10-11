@@ -2,8 +2,6 @@
 layout: tutorial
 title: "فهرست"
 category: advanced
-permalink: /tutorials/advanced/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Advanced/edit/master/src/README.md
 ---
 
 

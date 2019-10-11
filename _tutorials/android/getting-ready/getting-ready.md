@@ -2,8 +2,6 @@
 layout: tutorial
 title: "آماده شدن"
 category: android
-permalink: /tutorials/android/getting-ready
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/getting-ready/README.md
 ---
 
 

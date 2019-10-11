@@ -2,8 +2,6 @@
 layout: tutorial
 title: "annotation ها در کاتلین و خلاصه بخش هشت"
 category: introduction
-permalink: /tutorials/introduction/annotations-in-kotlin-and-summary/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/annotations-in-kotlin-and-summary/README.md
 ---
 
 

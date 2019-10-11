@@ -2,8 +2,6 @@
 layout: tutorial
 title: "مرور کوتاه بر روی filtering و mapping و flatmapping در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/filtering-mapping-and-flatmapping-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/filtering-mapping-and-flatmapping-in-kotlin/README.md
 ---
 
 

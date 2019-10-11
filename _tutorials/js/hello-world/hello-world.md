@@ -2,8 +2,6 @@
 layout: tutorial
 title: "یک Hello World ساده"
 category: js
-permalink: /tutorials/js/hello-world/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Browser/edit/master/src/hello-world/README.md
 ---
 
 

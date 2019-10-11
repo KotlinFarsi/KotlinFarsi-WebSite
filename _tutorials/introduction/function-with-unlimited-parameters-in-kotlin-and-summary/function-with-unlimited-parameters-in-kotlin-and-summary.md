@@ -2,8 +2,6 @@
 layout: tutorial
 title: "تابع با پرامترهای نامحدود و خلاصه بخش چهارم"
 category: introduction
-permalink: /tutorials/introduction/function-with-unlimited-parameters-in-kotlin-and-summary/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/function-with-unlimited-parameters-in-kotlin-and-summary/README.md
 ---
 
 

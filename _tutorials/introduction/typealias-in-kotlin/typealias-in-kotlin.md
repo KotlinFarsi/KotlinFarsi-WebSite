@@ -2,8 +2,6 @@
 layout: tutorial
 title: "typealias در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/typealias-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/typealias-in-kotlin/README.md
 ---
 
 

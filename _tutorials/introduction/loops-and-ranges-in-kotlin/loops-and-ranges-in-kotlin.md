@@ -2,8 +2,6 @@
 layout: tutorial
 title: "حلقه ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/loops-and-ranges-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/loops-and-ranges-in-kotlin/README.md
 ---
 
 

@@ -2,8 +2,6 @@
 layout: tutorial
 title: "ساختار یک برنامه کاتلین"
 category: introduction
-permalink: /tutorials/introduction/the-structure-of-kotlin-application/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/the-structure-of-kotlin-application/README.md
 ---
 
 

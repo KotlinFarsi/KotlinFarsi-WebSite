@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کار کردن با exception ها"
 category: introduction
-permalink: /tutorials/introduction/working-with-exceptions/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/working-with-exceptions/README.md
 ---
 
 

@@ -2,8 +2,6 @@
 layout: tutorial
 title: "عبارت های الحاقی در کاتلین و خلاصه بخش نهم"
 category: introduction
-permalink: /tutorials/introduction/extension-functions-in-kotlin-and-summary/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/extension-functions-in-kotlin-and-summary/README.md
 ---
 
 

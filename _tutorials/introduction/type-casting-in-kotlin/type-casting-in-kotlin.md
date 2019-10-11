@@ -2,8 +2,6 @@
 layout: tutorial
 title: "type casting در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/type-casting-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/type-casting-in-kotlin/README.md
 ---
 
 

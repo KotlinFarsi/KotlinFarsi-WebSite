@@ -2,8 +2,6 @@
 layout: tutorial
 title: " تعریف متغیر در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/declaring-variables-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/declaring-variables-in-kotlin/README.md
 ---
 
 

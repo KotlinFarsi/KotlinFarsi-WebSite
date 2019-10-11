@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کلاس ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/classes-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/classes-in-kotlin/README.md
 ---
 
 

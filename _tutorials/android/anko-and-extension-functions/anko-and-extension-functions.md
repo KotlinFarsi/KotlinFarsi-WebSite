@@ -2,8 +2,6 @@
 layout: tutorial
 title: "Anko و توابع الحاقی"
 category: android
-permalink: /tutorials/android/anko-and-extension-functions
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/anko-and-extension-functions/README.md
 ---
 
 

@@ -2,8 +2,6 @@
 layout: tutorial
 title: "deconstructing values"
 category: introduction
-permalink: /tutorials/introduction/deconstructing-values/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/deconstructing-values/README.md
 ---
 
 

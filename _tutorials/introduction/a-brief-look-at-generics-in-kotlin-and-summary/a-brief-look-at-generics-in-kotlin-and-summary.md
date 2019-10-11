@@ -2,8 +2,6 @@
 layout: tutorial
 title: "نگاه کوتاه به generic ها و خلاصه بخش شش"
 category: introduction
-permalink: /tutorials/introduction/a-brief-look-at-generics-in-kotlin-and-summary/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/a-brief-look-at-generics-in-kotlin-and-summary/README.md
 ---
 
 

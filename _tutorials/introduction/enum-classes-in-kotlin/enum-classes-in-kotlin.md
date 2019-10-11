@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کلاس های enum در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/enum-classes-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/enum-classes-in-kotlin/README.md
 ---
 
 

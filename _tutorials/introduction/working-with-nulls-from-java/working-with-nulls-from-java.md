@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کار کردن با null ها از جاوا"
 category: introduction
-permalink: /tutorials/introduction/working-with-nulls-from-java/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/working-with-nulls-from-java/README.md
 ---
 
 

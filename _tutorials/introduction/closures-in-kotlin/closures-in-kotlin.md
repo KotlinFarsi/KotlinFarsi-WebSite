@@ -2,8 +2,6 @@
 layout: tutorial
 title: "closure ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/closures-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/closures-in-kotlin/README.md
 ---
 
 

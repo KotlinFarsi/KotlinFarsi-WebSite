@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کتابخانه استاندارد کاتلین و کارکردن با کالکشن ها در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/kotlin-standard-library-and-working-with-collections-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/kotlin-standard-library-and-working-with-collections-in-kotlin/README.md
 ---
 
 

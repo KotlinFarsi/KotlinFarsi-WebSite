@@ -2,8 +2,6 @@
 layout: tutorial
 title: "قابل کلیک سازی لیست پیشبینی"
 category: android
-permalink: /tutorials/android/making-the-forecast-list-clickable
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/making-the-forecast-list-clickable/README.md
 ---
 
 

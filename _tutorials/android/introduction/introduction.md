@@ -2,8 +2,6 @@
 layout: tutorial
 title: "معرفی"
 category: android
-permalink: /tutorials/android/introduction
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/introduction/README.md
 ---
 
 

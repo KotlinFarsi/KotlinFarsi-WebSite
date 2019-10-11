@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کارکردن با کلاس های abstract در کاتلین"
 category: introduction
-permalink: /tutorials/introduction/working-with-abstract-classes-in-kotlin/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Introduction/edit/master/src/working-with-abstract-classes-in-kotlin/README.md
 ---
 
 

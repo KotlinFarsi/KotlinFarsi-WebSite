@@ -2,8 +2,6 @@
 layout: tutorial
 title: "فهرست"
 category: js
-permalink: /tutorials/js/
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Browser/edit/master/src/README.md
 ---
 
 <div dir="rtl" markdown="1">

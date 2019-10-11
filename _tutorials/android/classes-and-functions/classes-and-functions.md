@@ -2,8 +2,6 @@
 layout: tutorial
 title: "کلاس ها و توابع"
 category: android
-permalink: /tutorials/android/classes-and-functions
-editlink: https://github.com/KotlinFarsi/OpenSourceTutorials-Android/edit/master/src/classes-and-functions/README.md
 ---
 
 
