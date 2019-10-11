@@ -2,6 +2,8 @@
 layout: tutorial
 title: "توابع الحاقی کاتلین از جاوا"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

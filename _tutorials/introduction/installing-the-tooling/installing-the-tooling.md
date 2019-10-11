@@ -2,6 +2,8 @@
 layout: tutorial
 title: "نصب کردن ابرازآلات"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

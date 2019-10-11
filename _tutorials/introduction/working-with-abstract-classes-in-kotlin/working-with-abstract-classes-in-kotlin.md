@@ -2,6 +2,8 @@
 layout: tutorial
 title: "کارکردن با کلاس های abstract در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

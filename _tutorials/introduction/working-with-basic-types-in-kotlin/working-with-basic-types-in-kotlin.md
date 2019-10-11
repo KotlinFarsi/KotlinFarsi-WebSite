@@ -2,6 +2,8 @@
 layout: tutorial
 title: "کار با Type های پایه ای"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

@@ -2,6 +2,8 @@
 layout: tutorial
 title: "یک Hello World ساده"
 category: js
+unit: 
+chapter: 
 ---
 
 

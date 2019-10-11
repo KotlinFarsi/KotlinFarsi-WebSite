@@ -2,6 +2,8 @@
 layout: tutorial
 title: "عبارت های الحاقی در کاتلین و خلاصه بخش نهم"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

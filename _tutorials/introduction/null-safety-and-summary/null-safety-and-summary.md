@@ -2,6 +2,8 @@
 layout: tutorial
 title: "null safety و خلاصه بخش هفت"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

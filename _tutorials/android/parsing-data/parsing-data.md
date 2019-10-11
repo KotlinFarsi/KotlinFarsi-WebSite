@@ -2,6 +2,8 @@
 layout: tutorial
 title: "تجزیه دیتا"
 category: android
+unit: 
+chapter: 
 ---
 
 

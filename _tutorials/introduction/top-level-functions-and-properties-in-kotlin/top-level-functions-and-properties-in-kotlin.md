@@ -2,6 +2,8 @@
 layout: tutorial
 title: "توابع و خصیصه های درجه اول"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

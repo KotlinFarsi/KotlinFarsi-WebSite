@@ -2,6 +2,8 @@
 layout: tutorial
 title: "نوشتن اولین کلاس"
 category: android
+unit: 
+chapter: 
 ---
 
 

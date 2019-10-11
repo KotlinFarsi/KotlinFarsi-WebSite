@@ -2,6 +2,8 @@
 layout: tutorial
 title: "نگاه کوتاه به generic ها و خلاصه بخش شش"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

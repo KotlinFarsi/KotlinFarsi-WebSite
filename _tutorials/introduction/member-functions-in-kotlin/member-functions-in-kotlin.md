@@ -2,6 +2,8 @@
 layout: tutorial
 title: "توابعِ عضو در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

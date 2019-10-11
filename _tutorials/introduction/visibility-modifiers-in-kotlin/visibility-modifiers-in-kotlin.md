@@ -2,6 +2,8 @@
 layout: tutorial
 title: " visibility modifier ها در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

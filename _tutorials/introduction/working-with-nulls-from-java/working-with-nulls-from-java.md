@@ -2,6 +2,8 @@
 layout: tutorial
 title: "کار کردن با null ها از جاوا"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

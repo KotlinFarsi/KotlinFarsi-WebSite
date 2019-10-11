@@ -2,6 +2,8 @@
 layout: tutorial
 title: "کلاس های interface در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

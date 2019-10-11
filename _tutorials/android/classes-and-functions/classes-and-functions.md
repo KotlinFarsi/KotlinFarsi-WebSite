@@ -2,6 +2,8 @@
 layout: tutorial
 title: "کلاس ها و توابع"
 category: android
+unit: 
+chapter: 
 ---
 
 

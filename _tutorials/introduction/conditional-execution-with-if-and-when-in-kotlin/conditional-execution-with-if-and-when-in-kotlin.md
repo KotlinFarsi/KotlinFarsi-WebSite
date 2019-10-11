@@ -2,6 +2,8 @@
 layout: tutorial
 title: "عبارت های شرطی در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

@@ -2,6 +2,8 @@
 layout: tutorial
 title: "قابل کلیک سازی لیست پیشبینی"
 category: android
+unit: 
+chapter: 
 ---
 
 

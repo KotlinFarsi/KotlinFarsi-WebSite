@@ -2,6 +2,8 @@
 layout: tutorial
 title: "typealias در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

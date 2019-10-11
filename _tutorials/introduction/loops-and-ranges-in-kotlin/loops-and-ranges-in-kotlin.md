@@ -2,6 +2,8 @@
 layout: tutorial
 title: "حلقه ها در کاتلین"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

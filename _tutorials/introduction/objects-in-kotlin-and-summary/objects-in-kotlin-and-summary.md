@@ -2,6 +2,8 @@
 layout: tutorial
 title: "Object ها در کاتلین و خلاصه بخش پنج"
 category: introduction
+unit: 
+chapter: 
 ---
 
 

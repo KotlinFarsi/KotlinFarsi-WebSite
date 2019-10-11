@@ -2,6 +2,8 @@
 layout: tutorial
 title: "Anko و توابع الحاقی"
 category: android
+unit: 
+chapter: 
 ---
 
 
