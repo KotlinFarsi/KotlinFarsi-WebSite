@@ -114,23 +114,22 @@
                 {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
                 {% for post in sorted_unit_posts %}
                     {% assign justContent = post.content | strip %}
-                    {% assign isClickable = justContent == "" %}
                     {% if post.chapter == 0 %}
                         <p class="headline">
                             {% capture linkText %}{{post.unit}} - {{post.title}}{% endcapture %}
-                            {% if isClickable %}
-                                {{linkText}}
-                            {% else %}
+                            {% if justContent != blank %}
                                 <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{linkText}}</a>
+                            {% else %}
+                                {{linkText}}
                             {% endif %}
                         </p>
                     {% else %}
                         <p class="post-head">
                             {% capture linkText %}{{post.chapter}}.{{post.unit}} ) {{ post.title }}{% endcapture %}
-                            {% if isClickable %}
-                                {{ linkText }}
-                            {% else %}
+                            {% if justContent != blank %}
                                 <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{ linkText }}</a>
+                            {% else %}
+                                {{ linkText }}
                             {% endif %}
                         </p>
                     {% endif %}
