@@ -18,6 +18,7 @@ profile_links:
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 
 excerpt_separator: <!--بیشتر-->
+github_editlink: https://github.com/KotlinFarsi/KotlinFarsi-WebSite/edit/master/
 
 header:
   links:
@@ -58,4 +59,4 @@ kramdown:
 collections:
   tutorials:
     output: true
-    permalink: /tutorials/:path/
+    permalink: /tutorials/:categories/:name
