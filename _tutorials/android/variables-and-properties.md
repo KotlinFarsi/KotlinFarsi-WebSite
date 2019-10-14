@@ -2,8 +2,8 @@
 layout: tutorial
 title: "مقادیر و خصیصه ها"
 category: android
-unit: 
-chapter: 
+unit: 6
+chapter: 0
 ---
 
 

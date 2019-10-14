@@ -2,8 +2,8 @@
 layout: tutorial
 title: "آماده شدن"
 category: android
-unit: 
-chapter: 
+unit: 2
+chapter: 0
 ---
 
 

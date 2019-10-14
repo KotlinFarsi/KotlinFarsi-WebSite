@@ -2,8 +2,8 @@
 layout: tutorial
 title: "بدست آوردن دیتا با استفاده از API"
 category: android
-unit: 
-chapter: 
+unit: 8
+chapter: 0
 ---
 
 

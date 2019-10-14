@@ -2,8 +2,8 @@
 layout: tutorial
 title: "ساختن یک پروژه جدید"
 category: android
-unit: 
-chapter: 
+unit: 3
+chapter: 0
 ---
 
 

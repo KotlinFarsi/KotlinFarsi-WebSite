@@ -2,8 +2,8 @@
 layout: tutorial
 title: "کلاس های دیتا"
 category: android
-unit: 
-chapter: 
+unit: 9
+chapter: 0
 ---
 
 
