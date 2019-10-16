@@ -4,6 +4,10 @@ title: "کلاس های دیتا"
 category: android
 unit: 9
 chapter: 0
+sub_headers: 
+  - توابع اضافی
+  - کپی کردن یک کلاس دیتا
+  - مپ کردن یک شی به متغیرها
 ---
 
 

@@ -4,6 +4,9 @@ title: "بدست آوردن دیتا با استفاده از API"
 category: android
 unit: 8
 chapter: 0
+sub_headers: 
+  - انجام درخواست
+  - انجام درخواست خارج از نخ اصلی
 ---
 
 

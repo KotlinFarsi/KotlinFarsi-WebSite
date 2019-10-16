@@ -4,6 +4,9 @@ title: "نوشتن اولین کلاس"
 category: android
 unit: 5
 chapter: 0
+sub_headers: 
+  - ساختن layout
+  - آداپتور Recycler
 ---
 
 

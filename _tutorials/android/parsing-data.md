@@ -4,6 +4,10 @@ title: "تجزیه دیتا"
 category: android
 unit: 10
 chapter: 0
+sub_headers: 
+  - تبدیل JSON به کلاس های دیتا
+  - شکل دادن به لایه ی `domain`
+  - نمایش دیتا بر روی UI
 ---
 
 

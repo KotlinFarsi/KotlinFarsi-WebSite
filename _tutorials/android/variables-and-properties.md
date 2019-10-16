@@ -4,6 +4,10 @@ title: "مقادیر و خصیصه ها"
 category: android
 unit: 6
 chapter: 0
+sub_headers: 
+  - تایپ های پایه ای 
+  - متغیر ها
+  - خصیصه ها
 ---
 
 

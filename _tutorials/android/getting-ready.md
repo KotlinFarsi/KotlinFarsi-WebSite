@@ -4,6 +4,9 @@ title: "آماده شدن"
 category: android
 unit: 2
 chapter: 0
+sub_headers: 
+  - اندروید استودیو
+  - نصب پلاگین کاتلین
 ---
 
 
