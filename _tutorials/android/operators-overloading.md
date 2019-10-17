@@ -2,8 +2,12 @@
 layout: tutorial
 title: "Overloading Operators"
 category: android
-unit: 
-chapter: 
+unit: 11
+chapter: 0
+sub_headers: 
+  - جدول اوپراتور ها
+  - یک مثال
+  - عملگرها در توابع الحاقی
 ---
 
 

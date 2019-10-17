@@ -2,8 +2,13 @@
 layout: tutorial
 title: "ساختن یک پروژه جدید"
 category: android
-unit: 
-chapter: 
+unit: 3
+chapter: 0
+sub_headers: 
+  - ساختن پروژه در اندروید استودیو
+  - تنظیمات گردل
+  - تبدیل MainActivity به کد کاتلین
+  - تست کارکردن همه اجزا
 ---
 
 

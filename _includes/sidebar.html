@@ -1,142 +1,46 @@
 {% if page.layout == "tutorial" %}
-    {% if page.url contains "/tutorials/android/" %}
-        <div class="post" dir="ltr">
-            <article class="post-content">
-                <div dir="rtl">
-
-                    <h1>فهرست</h1>
-
-                    <p>الف ) درباره این کتاب</p>
-
-                    <p>ب ) آیا این کتاب مناسب شماست؟</p>
-
-                    <p>پ ) درباره نویسنده</p>
-
-                    <p>ت ) چند سخن مترجم</p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/introduction" %}color:red;{% endif %}" href="/tutorials/android/introduction">1 - معرفی</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/introduction#کاتلین-چیست" %}color:red;{% endif %}" href="/tutorials/android/introduction#کاتلین-چیست">1.1 )‌ کاتلین چیست؟</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/introduction#با-کاتلین-به-چه-میرسیم" %}color:red;{% endif %}" href="/tutorials/android/introduction#با-کاتلین-به-چه-میرسیم">1.2 ) با کاتلین به چه میرسیم؟</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/getting-ready" %}color:red;{% endif %}" href="/tutorials/android/getting-ready">2 - آماده شدن</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/getting-ready#اندروید-استودیو" %}color:red;{% endif %}" href="/tutorials/android/getting-ready#اندروید-استودیو">2.1 ) اندروید استودیو</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/getting-ready#نصب-پلاگین-کاتلین" %}color:red;{% endif %}" href="/tutorials/android/getting-ready#نصب-پلاگین-کاتلین">2.2 ) نصب پلاگین کاتلین</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/creating-a-new-project" %}color:red;{% endif %}" href="/tutorials/android/creating-a-new-project">3 - ساختن یک پروژه جدید</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/creating-a-new-project/#ساختن-پروژه-در-اندروید-استودیو" %}color:red;{% endif %}" href="/tutorials/android/creating-a-new-project#ساختن-پروژه-در-اندروید-استودیو">3.1 ) ساختن پروژه در اندروید استودیو</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/creating-a-new-project#تنظیمات-گردل" %}color:red;{% endif %}" href="/tutorials/android/creating-a-new-project#تنظیمات-گردل">3.2 ) تنظیمات گردل</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/creating-a-new-project#تبدیل-mainactivity-به-کد-کاتلین" %}color:red;{% endif %}" href="/tutorials/android/creating-a-new-project#تبدیل-mainactivity-به-کد-کاتلین">3.3 ) تبدیل MainActivity به کد کاتلین</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/creating-a-new-project#تست-کارکردن-همه-اجزا" %}color:red;{% endif %}" href="/tutorials/android/creating-a-new-project#تست-کارکردن-همه-اجزا">3.4 ) تست کارکردن همه اجزا</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/classes-and-functions" %}color:red;{% endif %}" href="/tutorials/android/classes-and-functions">4 - کلاس ها و توابع</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/classes-and-functions#روش-تعریف-کلاس" %}color:red;{% endif %}" href="/tutorials/android/classes-and-functions#روش-تعریف-کلاس">4.1 ) روش تعریف کلاس</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/classes-and-functions#ارث-بری" %}color:red;{% endif %}" href="/tutorials/android/classes-and-functions#ارث-بری">4.2 ) ارث بری</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/classes-and-functions#توابع" %}color:red;{% endif %}" href="/tutorials/android/classes-and-functions#توابع">4.3 ) توابع</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/classes-and-functions#کانستراکتور-و-پارامترها" %}color:red;{% endif %}" href="/tutorials/android/classes-and-functions#کانستراکتور-و-پارامترها">4.4 ) کانستراکتور و پارامترها</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/writing-your-first-class" %}color:red;{% endif %}" href="/tutorials/android/writing-your-first-class">5 - نوشتن اولین کلاس</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/writing-your-first-class#ساختن-layout" %}color:red;{% endif %}" href="/tutorials/android/writing-your-first-class#ساختن-layout">5.1 ) ساختن layout</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/writing-your-first-class#آداپتور-recycler" %}color:red;{% endif %}" href="/tutorials/android/writing-your-first-class#آداپتور-recycler">5.2 ) آداپتور Recycler</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/variables-and-properties" %}color:red;{% endif %}" href="/tutorials/android/variables-and-properties">6 - مقادیر و خصیصه ها</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/variables-and-properties#تایپ-های-پایه-ای" %}color:red;{% endif %}" href="/tutorials/android/variables-and-properties#تایپ-های-پایه-ای">6.1 ) type های پایه ای</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/variables-and-properties#متغیر-ها" %}color:red;{% endif %}" href="/tutorials/android/variables-and-properties#متغیر-ها">6.2 ) متغیر ها</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/variables-and-properties#خصیصه-ها" %}color:red;{% endif %}" href="/tutorials/android/variables-and-properties#خصیصه-ها">6.3 ) خصیصه ها</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/anko-and-extension-functions" %}color:red;{% endif %}" href="/tutorials/android/anko-and-extension-functions">7 - Anko و توابع الحاقی</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/anko-and-extension-functions#anko-چیست" %}color:red;{% endif %}" href="/tutorials/android/anko-and-extension-functions#anko-چیست">7.1 ) Anko چیست؟</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/anko-and-extension-functions#شروع-به-استفاده-از-anko" %}color:red;{% endif %}" href="/tutorials/android/anko-and-extension-functions#شروع-به-استفاده-از-anko">7.2 ) شروع به استفاده از Anko</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/anko-and-extension-functions#توابع-الحاقی" %}color:red;{% endif %}" href="/tutorials/android/anko-and-extension-functions#توابع-الحاقی">7.3 ) توابع الحاقی</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/retrieving-data-from-api" %}color:red;{% endif %}" href="/tutorials/android/retrieving-data-from-api">8 - بدست آوردن دیتا با استفاده از API</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/retrieving-data-from-api#انجام-درخواست" %}color:red;{% endif %}" href="/tutorials/android/retrieving-data-from-api#انجام-درخواست">8.1 ) انجام درخواست</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/retrieving-data-from-api#انجام-درخواست-خارج-از-نخ-اصلی" %}color:red;{% endif %}" href="/tutorials/android/retrieving-data-from-api#انجام-درخواست-خارج-از-نخ-اصلی">8.2 ) انجام درخواست خارج از نخ اصلی</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/data-classes" %}color:red;{% endif %}" href="/tutorials/android/data-classes">9 - کلاس های دیتا</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/data-classes#توابع-اضافی" %}color:red;{% endif %}" href="/tutorials/android/data-classes#توابع-اضافی">9.1 ) توابع اضافی</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/data-classes#کپی-کردن-یک-کلاس-دیتا" %}color:red;{% endif %}" href="/tutorials/android/data-classes#کپی-کردن-یک-کلاس-دیتا">9.2 ) کپی کردن کلاس دیتا</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/data-classes#مپ-کردن-یک-شی-به-متغیرها" %}color:red;{% endif %}" href="/tutorials/android/data-classes#مپ-کردن-یک-شی-به-متغیرها">9.3 ) مپ کردن یک آبجکت به متغیرها</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/parsing-data" %}color:red;{% endif %}" href="/tutorials/android/parsing-data">10 - تجزیه دیتا</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/parsing-data#تبدیل-json-به-کلاس-های-دیتا" %}color:red;{% endif %}" href="/tutorials/android/parsing-data#تبدیل-json-به-کلاس-های-دیتا">10.1 ) تبدیل JSON به کلاس های دیتا</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/parsing-data#شکل-دادن-به-لایه-ی-domain" %}color:red;{% endif %}" href="/tutorials/android/parsing-data#شکل-دادن-به-لایه-ی-domain">10.2 ) شکل دادن به لایه ی domain</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/parsing-data#نمایش-دیتا-بر-روی-ui" %}color:red;{% endif %}" href="/tutorials/android/parsing-data#نمایش-دیتا-بر-روی-ui">10.3 ) نمایش دیتا بر روی UI</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/operators-overloading" %}color:red;{% endif %}" href="/tutorials/android/operators-overloading">11 - Overloading Operators</a></strong></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/operators-overloading#جدول-اوپراتور-ها" %}color:red;{% endif %}" href="/tutorials/android/operators-overloading#جدول-اوپراتور-ها">11.1 ) جدول اوپراتور ها</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/operators-overloading#یک-مثال" %}color:red;{% endif %}" href="/tutorials/android/operators-overloading#یک-مثال">11.2 ) یک مثال</a></p>
-
-                    <p><a style="{% if page.url contains "/tutorials/android/operators-overloading#عملگرها-در-توابع-الحاقی" %}color:red;{% endif %}" href="/tutorials/android/operators-overloading#عملگرها-در-توابع-الحاقی">11.3 ) عملگرها در توابع الحاقی</a></p>
-
-                    <p><strong><a style="{% if page.url contains "/tutorials/android/making-the-forecast-list-clickable" %}color:red;{% endif %}" href="/tutorials/android/making-the-forecast-list-clickable">12 - تجزیه دیتا</a></strong></p>
-
-                    <p>بقیه فصل ها در حال ترجمه است</p>
-                </div>
-
-            </article>
-        </div>
-    {% else %}
-        <div class="post-index" dir="rtl">
-            <h1 id="section">فهرست</h1>
-            {% assign posts = site.tutorials | where: "category", {{page.category}} %}
-            {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
-            {% for unit in posts_by_unit %}
-                {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
-                {% for post in sorted_unit_posts %}
-                    {% assign justContent = post.content | strip %}
-                    {% if post.chapter == 0 %}
-                        <p class="headline">
-                            {% capture linkText %}{{post.unit}} - {{post.title}}{% endcapture %}
-                            {% if justContent != blank %}
-                                <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{linkText}}</a>
-                            {% else %}
-                                {{linkText}}
-                            {% endif %}
-                        </p>
-                    {% else %}
+    <div class="post-index" dir="rtl">
+        <h1 id="section">فهرست</h1>
+        {% assign posts = site.tutorials | where: "category", {{page.category}} %}
+        {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
+        {% for unit in posts_by_unit %}
+            {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
+            {% for post in sorted_unit_posts %}
+                {% assign justContent = post.content | strip %}
+                {% if post.chapter == 0 %}
+                    <p class="headline">
+                        {% capture linkText %}{{post.unit}} - {{post.title}}{% endcapture %}
+                        {% if justContent != blank %}
+                            <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{linkText}}</a>
+                        {% else %}
+                            {{linkText}}
+                        {% endif %}
+                    </p>
+                {% else %}
+                    <p class="post-head">
+                        {% capture linkText %}{{post.chapter}}.{{post.unit}} ) {{ post.title }}{% endcapture %}
+                        {% if justContent != blank %}
+                            <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{ linkText }}</a>
+                        {% else %}
+                            {{ linkText }}
+                        {% endif %}
+                    </p>
+                {% endif %}
+                    {% for sub_header in post.sub_headers %}
                         <p class="post-head">
-                            {% capture linkText %}{{post.chapter}}.{{post.unit}} ) {{ post.title }}{% endcapture %}
+                            {% capture linkText %}- {{ sub_header }}{% endcapture %}
+                            {% capture sub_header_link %}{{ post.url }}#{{ sub_header | replace: " ", "-"}}{%endcapture%}
                             {% if justContent != blank %}
-                                <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{ linkText }}</a>
+                                <a href="{{ sub_header_link }}">{{ linkText }}</a>
                             {% else %}
                                 {{ linkText }}
                             {% endif %}
                         </p>
-                    {% endif %}
-                {% endfor %}
+                    {% endfor %}
+
             {% endfor %}
-        </div>
-    {% endif %}
+        {% endfor %}
+    </div>
 {% endif %}
 
 {% if page.layout == "post" %}
