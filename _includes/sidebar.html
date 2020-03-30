@@ -1,46 +1,46 @@
 {% if page.layout == "tutorial" %}
-    <div class="post-index" dir="rtl">
-        <h1 id="section">فهرست</h1>
-        {% assign posts = site.tutorials | where: "category", {{page.category}} %}
-        {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
-        {% for unit in posts_by_unit %}
-            {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
-            {% for post in sorted_unit_posts %}
-                {% assign justContent = post.content | strip %}
-                {% if post.chapter == 0 %}
-                    <p class="headline">
-                        {% capture linkText %}{{post.unit}} - {{post.title}}{% endcapture %}
-                        {% if justContent != blank %}
-                            <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{linkText}}</a>
-                        {% else %}
-                            {{linkText}}
-                        {% endif %}
-                    </p>
-                {% else %}
-                    <p class="post-head">
-                        {% capture linkText %}{{post.chapter}}.{{post.unit}} ) {{ post.title }}{% endcapture %}
-                        {% if justContent != blank %}
-                            <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{ linkText }}</a>
-                        {% else %}
-                            {{ linkText }}
-                        {% endif %}
-                    </p>
-                {% endif %}
-                    {% for sub_header in post.sub_headers %}
-                        <p class="post-head">
-                            {% capture linkText %}- {{ sub_header }}{% endcapture %}
-                            {% capture sub_header_link %}{{ post.url }}#{{ sub_header | replace: " ", "-"}}{%endcapture%}
-                            {% if justContent != blank %}
-                                <a href="{{ sub_header_link }}">{{ linkText }}</a>
-                            {% else %}
-                                {{ linkText }}
-                            {% endif %}
-                        </p>
-                    {% endfor %}
+<div class="post-index" dir="rtl">
+    <h1 id="section">فهرست</h1>
+    {% assign posts = site.tutorials | where: "category", {{page.category}} %}
+    {% assign posts_by_unit = posts |  sort: "unit" | group_by: "unit" %}
+    {% for unit in posts_by_unit %}
+    {% assign sorted_unit_posts = unit.items | sort: "chapter" %}
+    {% for post in sorted_unit_posts %}
+    {% assign justContent = post.content | strip %}
+    {% if post.chapter == 0 %}
+    <p class="headline">
+        {% capture linkText %}{{post.unit}} - {{post.title}}{% endcapture %}
+        {% if justContent != blank %}
+        <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{linkText}}</a>
+        {% else %}
+        {{linkText}}
+        {% endif %}
+    </p>
+    {% else %}
+    <p class="post-head">
+        {% capture linkText %}{{post.chapter}}.{{post.unit}} {{ post.title }}{% endcapture %}
+        {% if justContent != blank %}
+        <a class="{% if page.url == post.url %}selected{% endif %}" href="{{ post.url }}">{{ linkText }}</a>
+        {% else %}
+        {{ linkText }}
+        {% endif %}
+    </p>
+    {% endif %}
+    {% for sub_header in post.sub_headers %}
+    <p class="post-head">
+        {% capture linkText %}- {{ sub_header }}{% endcapture %}
+        {% capture sub_header_link %}{{ post.url }}#{{ sub_header | replace: " ", "-"}}{%endcapture%}
+        {% if justContent != blank %}
+        <a href="{{ sub_header_link }}">{{ linkText }}</a>
+        {% else %}
+        {{ linkText }}
+        {% endif %}
+    </p>
+    {% endfor %}
 
-            {% endfor %}
-        {% endfor %}
-    </div>
+    {% endfor %}
+    {% endfor %}
+</div>
 {% endif %}
 
 {% if page.layout == "post" %}
